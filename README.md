@@ -29,6 +29,29 @@ Controller负责逻辑的控制。Player和Place是棋盘的基本元素，两�
 
 ![mvc](https://github.com/Java-A-2019/Lab12/raw/master/res/mvc.png)
 
+这样做的好处是将逻辑、状态和显示三个部分分离，这样改动的时候，就会方便很多。
+
+### 单例模式
+这是23种设计模式中最简单的一种了。它的目的是为了使得全局只有一个变量存在，一方面
+节省资源，另外一方面，全局只有一个不会出现混淆。原理如下，其实灰常简单。
+
+
+```java
+public class Board {
+    private static Board board;
+    private Board() {}
+    
+    public static Board getInstance() {
+            if (board == null) board = new Board();
+            return board; 
+    }
+}
+```
+
+上面这种叫做懒汉模式，只有在调用的时候才会创建单例。
+* 将构造函数私有化，这样外部无法新建实例。
+* 存储一个静态变量，也就是我们的单例。
+* 通过类静态方法去访问这个变量，比方说Board.getInstance();。
 
 
 
