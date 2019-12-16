@@ -27,6 +27,9 @@ Controller负责逻辑的控制。Player和Place是棋盘的基本元素，两�
 
 ### MVC模式
 
+![mvc](https://github.com/Java-A-2019/Lab12/raw/master/res/mvc.png)
+
+
 
 
 

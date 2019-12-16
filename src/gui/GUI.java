@@ -17,8 +17,6 @@ import javafx.stage.Stage;
 
 public class GUI extends Application {
     private StackPane[][] squares;
-    private int x;
-    private int y;
     private ImageView playerImgView;
 
     private static GUI gui;
