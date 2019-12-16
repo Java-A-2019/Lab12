@@ -15,7 +15,7 @@ http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html 。
 
 ### 类图
 
-[class_diagram](https://github.com/Java-A-2019/Lab12/raw/master/res/class_diagram.png)
+![class_diagram](https://github.com/Java-A-2019/Lab12/raw/master/res/class_diagram.png)
 
 
 
